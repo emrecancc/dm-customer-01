@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "mongoose": "*",
-    "pdf-parse": "*"
+    "pdf-parse": "*",
+    "jest": "*"
   }
 }
