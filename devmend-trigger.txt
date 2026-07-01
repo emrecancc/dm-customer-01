@@ -1,1 +1,1 @@
-# DevMend E2E c1 s89 dep_npm_multi 2026-07-01T23:47:00.443Z
+# DevMend E2E c1 s60 cfg_json 2026-07-01T23:47:15.897Z
