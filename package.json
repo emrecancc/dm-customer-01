@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "devDependencies": {
     "pandas": "*",
-    "beanie": "*"
+    "beanie": "*",
+    "dependencies": "*",
+    "express": "*"
   }
 }
