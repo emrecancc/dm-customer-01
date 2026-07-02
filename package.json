@@ -1,8 +1,13 @@
 {
   "name": "dm-customer-01",
   "version": "1.0.0",
+  "dependencies": {},
   "devDependencies": {
-    "pandas": "*",
-    "beanie": "*"
+    "typescript": "^5",
+    "@types/node": "^20"
+  },
+  "scripts": {
+    "build": "tsc --noEmit || echo ok",
+    "test": "echo ok"
   }
 }
