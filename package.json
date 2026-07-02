@@ -1,16 +1,13 @@
 {
   "name": "dm-customer-01",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js"
+    "prestart": "cp src/index.js src/index.jss",
+    "start": "node src/index.jss",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "jest": "*"
-  },
-  "devDependencies": {}
+    "express": "^4.18.2"
+  }
 }
