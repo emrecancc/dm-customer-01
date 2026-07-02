@@ -1,10 +1,23 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import Dashboard from '../src/Dashboard';
+import Dashboard from '../Dashboard';
 
-test('Dashboard renders correctly', () => {
+// Mock the system date to a fixed value to make snapshots deterministic
+beforeAll(() => {
+  // Use Jest's modern fake timers to control the system time
   jest.useFakeTimers('modern');
+  // Set the system time to a fixed date (YYYY-MM-DD)
   jest.setSystemTime(new Date('2024-01-14'));
-  const { asFragment } = render(<Dashboard />);
-  expect(asFragment()).toMatchSnapshot();
+});
+
+afterAll(() => {
+  // Restore real timers after tests complete
+  jest.useRealTimers();
+});
+
+describe('Dashboard', () => {
+  it('renders correctly', () => {
+    const { container } = render(<Dashboard />);
+    expect(container).toMatchSnapshot();
+  });
 });
