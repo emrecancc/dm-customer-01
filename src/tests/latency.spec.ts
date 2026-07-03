@@ -1,8 +1,10 @@
-const { performance } = require('perf_hooks');
+import { apiCall } from '../src/api';
 
-test('API responds within 250ms', async () => {
-  const start = performance.now();
-  await fetch('http://localhost:3000/health');
-  const elapsed = performance.now() - start;
-  expect(elapsed).toBeLessThan(700);
+describe('Latency', () => {
+  it('API responds within 500ms', async () => {
+    const start = Date.now();
+    await apiCall();
+    const duration = Date.now() - start;
+    expect(duration).toBeLessThan(500);
+  });
 });
