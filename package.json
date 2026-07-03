@@ -1,12 +1,11 @@
 {
-  "name": "node-express",
+  "name": "dm-customer-01",
   "version": "1.0.0",
   "dependencies": {
-    "react": "^18.0.0"
+    "node-fetch": "^3.0.0"
   },
   "scripts": {
     "test": "echo ok",
-    "build": "echo ok",
-    "start": "node index.js"
+    "build": "echo ok"
   }
 }
