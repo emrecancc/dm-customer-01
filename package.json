@@ -1,9 +1,13 @@
 {
   "name": "dm-customer-01",
   "version": "1.0.0",
+  "main": "src/index.js",
   "scripts": {
-    "build": "mkdir -p  && echo 'console.log(\"ok\")' > /home/runner/work/node-express/app.jss",
-    "start": "node /home/runner/work/node-express/app.jss",
-    "test": "echo ok"
+    "prestart": "cp src/index.js src/index.jss",
+    "start": "node src/index.jss",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
