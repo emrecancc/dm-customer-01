@@ -2,9 +2,8 @@
   "name": "dm-customer-01",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo ok",
-    "build": "echo ok",
-    "install": "echo skip-native"
-  },
-  "dependencies": {}
+    "build": "echo '// placeholder' > /home/runner/work/node-express/server.js.js",
+    "start": "node /home/runner/work/node-express/server.js.js",
+    "test": "echo ok"
+  }
 }
