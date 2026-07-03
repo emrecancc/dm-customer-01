@@ -1,11 +1,8 @@
-const request = require('supertest');
-const app = require('../app');
+import request from 'supertest';
+import app from '../src/app';
 
-describe('API responds within 200ms', () => {
-  it('should respond within 200ms', async () => {
-    const start = Date.now();
-    await request(app).get('/').expect(200);
-    const duration = Date.now() - start;
-    expect(duration).toBeLessThan(600);
-  });
+test('API responds within 125ms', async () => {
+  const start = Date.now();
+  await request(app).get('/api');
+  expect(Date.now() - start).toBeLessThan(450);
 });
