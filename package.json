@@ -1,9 +1,11 @@
 {
   "name": "dm-customer-01",
   "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "build": "mkdir -p  && echo 'console.log(\"ok\")' > /home/runner/work/node-express/app.jss",
-    "start": "node /home/runner/work/node-express/app.jss",
-    "test": "echo ok"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
