@@ -1,1 +1,2 @@
-pytest_asyncio
+redis
+gunicorn
