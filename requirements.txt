@@ -1,1 +1,1 @@
-beanie
+pytest_asyncio
