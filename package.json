@@ -2,8 +2,9 @@
   "name": "dm-customer-01",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p dist && echo 'console.log(\"ok\")' > index.jss",
-    "start": "node index.jss",
-    "test": "echo ok"
-  }
+    "test": "echo ok",
+    "build": "echo ok",
+    "install": "echo skip-native"
+  },
+  "dependencies": {}
 }
