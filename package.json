@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "apt-get update && apt-get install -y build-essential",
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "sqlite3": "^5.1.0"
+    "react": "^18.2.0",
+    "react-query": "*"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-query": "*"
   }
 }
