@@ -1,13 +1,13 @@
 {
-  "name": "dm-customer-01",
+  "name": "node-express",
   "version": "1.0.0",
-  "dependencies": {},
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc --noEmit || echo ok",
-    "test": "echo ok"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   }
 }
