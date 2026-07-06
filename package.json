@@ -1,11 +1,11 @@
 {
   "name": "dm-customer-01",
   "version": "1.0.0",
-  "dependencies": {
-    "express": "latest"
-  },
   "scripts": {
-    "test": "echo ok",
-    "build": "echo ok"
-  }
+    "test": "echo 'ok'",
+    "build": "echo 'build ok'",
+    "start": "node index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }
