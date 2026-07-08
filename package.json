@@ -1,11 +1,12 @@
 {
-  "name": "dm-customer-01",
+  "name": "node-express",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo ok",
+    "test": "jest --passWithNoTests",
     "build": "echo ok"
   },
   "devDependencies": {
-    "matplotlib": "latest"
+    "jest": "^29.0.0",
+    "jest-environment-node": "^29.0.0"
   }
 }
