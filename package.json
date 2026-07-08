@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "axios": "*",
-    "vue": "*"
+    "vue": "*",
+    "jest": "*"
   }
 }
