@@ -6,6 +6,6 @@
     "build": "echo ok"
   },
   "devDependencies": {
-    "l": "latest"
+    "fastapi": "latest"
   }
 }
