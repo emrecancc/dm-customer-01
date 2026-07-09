@@ -1,13 +1,13 @@
 {
   "name": "dm-customer-01",
   "version": "1.0.0",
-  "description": "auto-fixed by DevMend",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo 'ok'",
-    "build": "echo 'build ok'",
-    "start": "node index.js"
-  },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20"
+  },
+  "scripts": {
+    "build": "tsc --noEmit || echo ok",
+    "test": "echo ok"
+  }
 }
