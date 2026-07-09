@@ -5,5 +5,8 @@
     "test": "echo ok",
     "build": "echo ok",
     "start": "node index.js"
+  },
+  "devDependencies": {
+    "jest": "*"
   }
 }
